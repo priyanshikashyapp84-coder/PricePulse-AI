@@ -1,0 +1,362 @@
+{
+  "A Light in the Attic": [
+    {
+      "price": "£51.77",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£51.77",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£51.77",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£51.77",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Tipping the Velvet": [
+    {
+      "price": "£53.74",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£53.74",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£53.74",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£53.74",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Soumission": [
+    {
+      "price": "£50.10",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£50.10",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£50.10",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£50.10",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Sharp Objects": [
+    {
+      "price": "£47.82",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£47.82",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£47.82",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£47.82",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Sapiens: A Brief History of Humankind": [
+    {
+      "price": "£54.23",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£54.23",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£54.23",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£54.23",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "The Requiem Red": [
+    {
+      "price": "£22.65",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£22.65",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£22.65",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£22.65",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "The Dirty Little Secrets of Getting Your Dream Job": [
+    {
+      "price": "£33.34",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£33.34",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£33.34",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£33.34",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull": [
+    {
+      "price": "£17.93",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£17.93",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£17.93",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£17.93",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics": [
+    {
+      "price": "£22.60",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£22.60",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£22.60",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£22.60",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "The Black Maria": [
+    {
+      "price": "£52.15",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£52.15",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£52.15",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£52.15",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Starving Hearts (Triangular Trade Trilogy, #1)": [
+    {
+      "price": "£13.99",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£13.99",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£13.99",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£13.99",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Shakespeare's Sonnets": [
+    {
+      "price": "£20.66",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£20.66",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£20.66",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£20.66",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Set Me Free": [
+    {
+      "price": "£17.46",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£17.46",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£17.46",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£17.46",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)": [
+    {
+      "price": "£52.29",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£52.29",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£52.29",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£52.29",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Rip it Up and Start Again": [
+    {
+      "price": "£35.02",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£35.02",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£35.02",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£35.02",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991": [
+    {
+      "price": "£57.25",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£57.25",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£57.25",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£57.25",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Olio": [
+    {
+      "price": "£23.88",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£23.88",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£23.88",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£23.88",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Mesaerion: The Best Science Fiction Stories 1800-1849": [
+    {
+      "price": "£37.59",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£37.59",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£37.59",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£37.59",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "Libertarianism for Beginners": [
+    {
+      "price": "£51.33",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£51.33",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£51.33",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£51.33",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ],
+  "It's Only the Himalayas": [
+    {
+      "price": "£45.17",
+      "timestamp": "2026-08-21T21:32:40"
+    },
+    {
+      "price": "£45.17",
+      "timestamp": "2026-08-21T21:57:01"
+    },
+    {
+      "price": "£45.17",
+      "timestamp": "2026-08-22T11:35:36"
+    },
+    {
+      "price": "£45.17",
+      "timestamp": "2026-08-22T11:38:40"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 import os
 import json
+import time 
+from datetime import datetime
 from urllib.parse import urljoin
 from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright
@@ -12,7 +14,7 @@ if not BRIGHTDATA_ENDPOINT:
     raise RuntimeError("BRIGHTDATA_ENDPOINT is missing from .env")
 
 
-def test_browser_connection():
+def scrape_books():
     print("Connecting to Bright Data Browser API...")
 
     with sync_playwright() as p:
@@ -41,7 +43,7 @@ def test_browser_connection():
         print("Books found:", books.count())
 
         products = []
-        for i in range(books.count()): 
+        for i in range(books.count()):
             book = books.nth(i)
 
             name = book.locator("h3 a").get_attribute("title")
@@ -62,14 +64,75 @@ def test_browser_connection():
 
             print(products[-1])
 
-        os.makedirs("database", exist_ok=True)
-        with open("database/products.json", "w", encoding="utf-8") as file:
-            json.dump(products, file, indent=2, ensure_ascii=False)
-
-        print("Saved", len(products), "products to database/products.json")
-
         browser.close()
 
+    # Everything below runs after the browser closes, still inside scrape_books()
+
+    os.makedirs("database", exist_ok=True)
+
+    # Save latest snapshot
+    with open("database/products.json", "w", encoding="utf-8") as file:
+        json.dump(products, file, indent=2, ensure_ascii=False)
+
+    print("Saved", len(products), "products to database/products.json")
+
+    # Save price history
+    history_file = "database/price_history.json"
+
+    try:
+        with open(history_file, "r", encoding="utf-8") as file:
+            price_history = json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        price_history = {}
+
+    timestamp = datetime.now().isoformat(timespec="seconds")
+
+    for product in products:
+        product_name = product["name"]
+
+        if product_name not in price_history:
+            price_history[product_name] = []
+
+        price_history[product_name].append({
+            "price": product["price"],
+            "timestamp": timestamp
+        })
+
+    with open(history_file, "w", encoding="utf-8") as file:
+        json.dump(price_history, file, indent=2, ensure_ascii=False)
+
+    print("Price history updated!")
+
+    return products
+
+def scrape_with_self_healing(max_retries=3):
+    for attempt in range(1, max_retries + 1):
+
+        try:
+            print(f"\n🤖 Scraper attempt {attempt}/{max_retries}")
+
+            products = scrape_books()
+
+            print("✅ Scraper completed successfully!")
+            return products
+
+        except Exception as error:
+
+            print(f"⚠️ Scraper error: {error}")
+
+            if attempt < max_retries:
+                wait_time = attempt * 3
+
+                print(
+                    f"🔧 Self-healing activated. "
+                    f"Retrying in {wait_time} seconds..."
+                )
+
+                time.sleep(wait_time)
+
+            else:
+                print("❌ Scraper failed after all retry attempts.")
+                return [] 
 
 if __name__ == "__main__":
-    test_browser_connection() 
+    scrape_with_self_healing() 
